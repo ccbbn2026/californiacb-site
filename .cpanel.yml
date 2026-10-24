@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    # Copy everything in site/ into the live web folder.
+    # This only adds or overwrites files; it never deletes anything on the server
+    # (.htaccess, .well-known, cgi-bin and old-2022-site are left alone).
+    - export DEPLOYPATH=/home3/califro2/public_html/
+    - /bin/cp -R site/. $DEPLOYPATH
