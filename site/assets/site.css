@@ -38,3 +38,6 @@
 @media(max-width:600px){.reviews{padding:75px 20px}.review-card{padding:24px}.review-links .button{flex:1}}
 .page-section+.reviews{background:#fff}.page-section+.reviews .review-card{background:var(--mist)}
 .work-more{margin:30px 0 70px}.text-link.light-link{color:#f1bd68}
+.site-header nav a{white-space:nowrap}
+@media(min-width:901px) and (max-width:1200px){.site-header nav{gap:20px;font-size:.88rem}.nav-cta{padding:11px 14px}}
+@media(min-width:901px) and (max-width:1020px){.site-header nav{gap:14px}.site-header .brand img{width:150px}}
