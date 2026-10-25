@@ -36,4 +36,4 @@ Finishes:
 A vaulted, well-insulated ADU with polished concrete floors and a white kitchen, built inside the old garage in three months and finished by Christmas.
 
 ## Photos
-Built: site/projects/carpinteria-garage-adu/ (15 photos + 4 muted videos incl. final walkthrough). adu-framing.jpg left out pending confirmation.
+Built: site/projects/carpinteria-garage-adu/ (14 photos + 4 muted videos incl. final walkthrough). adu-foundation.jpg (steel over slab) is Oxnard ADU per Juan; adu-framing.jpg also likely Oxnard.
