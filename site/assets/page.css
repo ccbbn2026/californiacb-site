@@ -66,3 +66,7 @@
 .video-grid video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; object-fit: contain; }
 .video-grid figcaption { padding: 15px 17px 17px; color: var(--blue); font-weight: 700; font-size: .9rem; }
 @media (max-width: 900px) { .video-grid { grid-template-columns: 1fr; } }
+.video-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.video-grid-3 video { aspect-ratio: 3 / 4; }
+.case-buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+@media (max-width: 900px) { .video-grid-3 { grid-template-columns: 1fr; } .video-grid-3 video { aspect-ratio: 4 / 5; } }
