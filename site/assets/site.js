@@ -46,3 +46,20 @@ if (location.search.indexOf('form=error') !== -1) { var fe = document.querySelec
   window.gtag('js', new Date());
   window.gtag('config', 'AW-18208357318');
 })();
+
+// Reviews: shorten long reviews to a few lines with a "Read more" toggle.
+(function () {
+  document.querySelectorAll('.review-text').forEach(function (q) {
+    if (q.textContent.length < 420) return;
+    q.classList.add('clamped');
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'review-more'; b.textContent = 'Read more';
+    b.setAttribute('aria-expanded', 'false');
+    b.addEventListener('click', function () {
+      var open = q.classList.toggle('clamped') === false;
+      b.textContent = open ? 'Show less' : 'Read more';
+      b.setAttribute('aria-expanded', String(open));
+    });
+    q.insertAdjacentElement('afterend', b);
+  });
+})();
