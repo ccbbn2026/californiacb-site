@@ -70,3 +70,7 @@
 .video-grid-3 video { aspect-ratio: 3 / 4; }
 .case-buttons { display: flex; flex-wrap: wrap; gap: 12px; }
 @media (max-width: 900px) { .video-grid-3 { grid-template-columns: 1fr; } .video-grid-3 video { aspect-ratio: 4 / 5; } }
+.video-grid-4 { grid-template-columns: repeat(4, 1fr); }
+.video-grid-4 video { aspect-ratio: 9 / 14; }
+@media (max-width: 1100px) { .video-grid-4 { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 600px) { .video-grid-4 { grid-template-columns: 1fr; } .video-grid-4 video { aspect-ratio: 4 / 5; } }

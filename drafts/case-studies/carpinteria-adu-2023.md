@@ -36,4 +36,4 @@ Finishes:
 A vaulted, well-insulated ADU with polished concrete floors and a white kitchen, built inside the old garage in three months and finished by Christmas.
 
 ## Photos
-Built: site/projects/carpinteria-garage-adu/ (9 photos + 3 muted videos). adu-framing.jpg left out pending confirmation it is Carpinteria.
+Built: site/projects/carpinteria-garage-adu/ (15 photos + 4 muted videos incl. final walkthrough). adu-framing.jpg left out pending confirmation.
