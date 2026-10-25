@@ -34,4 +34,4 @@ Inside, the unit was finished with:
 A self-contained ADU with a separate entrance, completed in three months and built inside the footprint of the old garage, with a level floor, a new roof that matches a newly reroofed main house, and upgraded electrical and water service.
 
 ## Photos
-(pending)
+Built: site/projects/oxnard-garage-adu/ (12 photos + 2 muted videos)
