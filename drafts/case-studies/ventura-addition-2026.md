@@ -30,4 +30,4 @@ The owners wanted more room without changing the character of their home: a dini
 A dining room, bedroom and bathroom that blend into the original house, topped by a roof deck with a fireplace.
 
 ## Photos
-Built: site/projects/ventura-addition-roof-deck/ (15 photos + 3 muted videos). Size, timeline and Sara review pending.
+Built: site/projects/ventura-addition-roof-deck/ (18 photos incl. 8 professional finished photos + 3 muted videos). Size, timeline and Sara review pending.
