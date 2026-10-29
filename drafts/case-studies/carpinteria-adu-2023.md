@@ -1,4 +1,4 @@
-# Garage-to-ADU Conversion: Carpinteria, 2023
+# Garage-to-ADU Conversion: Carpinteria
 A garage turned into a bright, vaulted living space, keeping the parts of the original structure worth keeping.
 
 ## Project facts

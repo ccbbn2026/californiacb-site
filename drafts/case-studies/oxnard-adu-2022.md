@@ -1,4 +1,4 @@
-# Garage-to-ADU Conversion: Oxnard, 2022
+# Garage-to-ADU Conversion: Oxnard
 Turning an attached garage into a separate living unit, starting with what was under the slab.
 
 ## Project facts

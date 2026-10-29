@@ -1,4 +1,4 @@
-# Thomas Fire Rebuild: Ojai, 2019
+# Thomas Fire Rebuild: Ojai
 Rebuilding a family home larger than before, on the foundation that survived.
 
 ## Project facts

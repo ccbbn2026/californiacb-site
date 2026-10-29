@@ -1,4 +1,4 @@
-# Home Addition with Roof Deck: Ventura, 2025–26
+# Home Addition with Roof Deck: Ventura
 A dining room, bedroom and bathroom added to an older home, with a roof deck and outdoor fireplace on top, built to look original.
 
 ## Project facts

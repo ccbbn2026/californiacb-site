@@ -1,4 +1,4 @@
-# Home Addition: Oxnard, 2020
+# Home Addition: Oxnard
 A new primary suite and a larger kitchen and living room, finished in time for Thanksgiving.
 
 ## Project facts
