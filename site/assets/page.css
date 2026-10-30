@@ -91,3 +91,4 @@
 .proj-card b { color: var(--blue); font-size: .9rem; }
 .proj-card:hover h3 { text-decoration: underline; text-decoration-color: var(--gold); }
 @media (max-width: 900px) { .proj-cards, .proj-cards-2 { grid-template-columns: 1fr; } .proj-card img { height: 240px; } }
+.page-gallery + .proj-strip { padding-top: 0; }
