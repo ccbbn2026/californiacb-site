@@ -41,3 +41,4 @@
 .site-header nav a{white-space:nowrap}
 @media(min-width:901px) and (max-width:1200px){.site-header nav{gap:20px;font-size:.88rem}.nav-cta{padding:11px 14px}}
 @media(min-width:901px) and (max-width:1020px){.site-header nav{gap:14px}.site-header .brand img{width:150px}}
+.member-note{margin:22px 0 0;font-size:.9rem;color:#64717d}.member-note a{color:var(--blue);font-weight:700;text-decoration:underline}
