@@ -92,3 +92,25 @@
 .proj-card:hover h3 { text-decoration: underline; text-decoration-color: var(--gold); }
 @media (max-width: 900px) { .proj-cards, .proj-cards-2 { grid-template-columns: 1fr; } .proj-card img { height: 240px; } }
 .page-gallery + .proj-strip { padding-top: 0; }
+.fact-strip { display: grid; grid-template-columns: repeat(4, 1fr); background: var(--ink); color: #fff; padding: 48px max(24px, calc((100vw - var(--max)) / 2)); }
+.fact-strip div { padding: 4px 26px; border-left: 1px solid rgba(255,255,255,.16); }
+.fact-strip div:first-child { border-left: 0; padding-left: 0; }
+.fact-strip strong { display: block; font-family: Manrope, sans-serif; font-size: clamp(1.6rem, 2.4vw, 2.3rem); letter-spacing: -.03em; color: var(--gold); margin-bottom: 8px; }
+.fact-strip span { color: rgba(255,255,255,.78); font-size: .95rem; line-height: 1.5; }
+.page-local { padding: 100px max(24px, calc((100vw - var(--max)) / 2)); background: #fff; }
+.page-local h2, .page-faq h2 { font-size: clamp(2.15rem, 3.7vw, 3.7rem); letter-spacing: -.045em; }
+.local-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 45px; }
+.local-grid article { background: var(--mist); border-top: 3px solid var(--gold); padding: 32px; }
+.local-grid h3 { font-size: 1.25rem; margin-bottom: 13px; }
+.local-grid p { color: #4f5f6c; line-height: 1.75; margin: 0; }
+.local-grid a, .faq-list a { color: var(--blue); font-weight: 600; }
+.page-faq { padding: 100px max(24px, calc((100vw - var(--max)) / 2)); background: var(--mist); }
+.faq-list { margin-top: 40px; max-width: 900px; border-top: 1px solid var(--line); }
+.faq-list details { border-bottom: 1px solid var(--line); background: #fff; }
+.faq-list summary { cursor: pointer; list-style: none; padding: 24px 56px 24px 28px; font-family: Manrope, sans-serif; font-weight: 700; font-size: 1.12rem; color: var(--ink); position: relative; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; position: absolute; right: 28px; top: 50%; transform: translateY(-50%); color: var(--gold); font-size: 1.6rem; font-weight: 600; }
+.faq-list details[open] summary::after { content: "–"; }
+.faq-list details p { margin: 0; padding: 0 28px 26px; color: #4f5f6c; line-height: 1.75; }
+@media (max-width: 900px) { .fact-strip { grid-template-columns: 1fr 1fr; row-gap: 28px; } .fact-strip div:nth-child(3) { border-left: 0; padding-left: 0; } .local-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .fact-strip, .page-local, .page-faq { padding: 70px 20px; } .fact-strip { grid-template-columns: 1fr; } .fact-strip div { border-left: 0; padding-left: 0; } .local-grid article { padding: 26px; } .faq-list summary { padding-left: 20px; } .faq-list details p { padding: 0 20px 22px; } }
